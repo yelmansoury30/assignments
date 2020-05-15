@@ -32,6 +32,10 @@ data was added to the database.
 
 ## Bailing Out
 
-To reset the state of the database to its original form, run the following line in your working directory:
+To reset the state of the database to its original form, run the following command in your working directory:
 `cp .nbtt.bak nbtt.sqlite`
 
+To reset the state of `insert.py` to its original form, run the following command in your working directory:
+`cp .insert.py.bak insert.py`
+
+Why aren't you using `git`?
