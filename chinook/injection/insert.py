@@ -6,7 +6,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("db", default=":memory:", help="The file path of the database to be edited")
-parser.add_argument("-r", "--roster")
+parser.add_argument("-r", "--roster", help="Inserts names from ROSTER into db. ROSTER should be a plain-text file with one name on each line.")
 args = parser.parse_args()
 
 # ===== END CLI BLOCK ===== #
